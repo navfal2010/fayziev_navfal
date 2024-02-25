@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100%;
+    padding: 28px 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.first_a {
+    color: white;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    transition: all 1s;
+    transition: all 1s;
+}
+
+.wrapper_icons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_of_burger {
+    margin-left: 28px;
+}
+
+.first_a:hover {
+    transition: all 1s;
+    color: orange;
+}
+
+
+.fsec {
+    padding-top: 80px;
+    background-image: url('./assets/img/first_photo.png');
+    width: 100%;
+    height: 875px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper_text {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1 {
+    width: 679px;
+    font-family: Open Sans;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118px;
+    letter-spacing: 0.02em;
+    color: white;
+}
+
+.first_p {
+    margin-top: 48px;
+    width: 645px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: white;
+}
+
+.firs_button {
+    margin-top: 40px;
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: black;
+    color: orange;
+    border: 1px orange solid;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    transition: all 1s;
+}
+
+.firs_button:hover {
+    transition: all 1s;
+    background-color: orange;
+    color: white;
+}
+
+
+.wrapper_of_boxes {
+    width: 100%;
+    display: flex;
+}
+
+.first_box {
+    width: 747px;
+    height: 212px;
+    background-color: black;
+    padding-top: 54px;
+    padding-left: 319px;
+
+}
+
+.p_in_first_box {
+    width: 277px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    color: #B3B3B3;
+}
+
+.second_box {
+    padding-top: 68px;
+    padding-left: 57px;
+    width: 427px;
+    height: 212px;
+    background: #34312D;
+}
+
+.third_box {
+    padding-top: 68px;
+    padding-left: 48px;
+    width: 746px;
+    height: 212px;
+    background: #6B6666;
+}
+
+.p_in_third_box {
+    width: 326px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    color: white;
+}
+
+.ssec {
+    background-color: gray;
+    padding-top: 113px;
+}
+
+.p-katalog {
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 79px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #101010;
+}
+
+.wrapper_cards {
+    margin-top: 122px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first_card {
+    padding-left: 80px;
+    width: 1280px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s;
+}
+
+.first_card:hover {
+    transition: all 1s;
+    background-color: orange;
+}
+
+
+.p-velosopedi {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+
+.second_card {
+    padding-top: 80px;
+    width: 400px;
+    height: 458px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 1s;
+    transition: all 1s;
+}
+
+.second_card:hover {
+    transition: all 1s;
+    background-color: orange;
+}
+
+.p-trade-in {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.second_wrapper_card {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.third_card {
+    width: 400px;
+    height: 216px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s;
+}
+
+.third_card:hover {
+    transition: all 1s;
+    background-color: orange;
+}
+
+.p-zapchasti {
+    margin-top: 29px;
+    margin-left: 24px;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.fourth_card {
+    width: 448px;
+    height: 216px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: end;
+    transition: all 1s;
+
+}
+
+
+
+.fourth_card:hover {
+    transition: all 1s;
+    background-color: orange;
+}
+
+.p-ekipirovka {
+    margin-top: 29px;
+    margin-right: 141px;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.photo_of_kaska {
+    width: 135px;
+    height: 135px;
+}
+
+
+
+.fives_card {
+    width: 400px;
+    height: 216px;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    transition: all 1s;
+}
+
+
+.fives_card:hover {
+    transition: all 1s;
+    background-color: orange;
+}
+
+
+.p-volostanki {
+    margin-top: 29px;
+    margin-left: 26px;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+}
+
+.photo_of_equpment {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sixth_card {
+    width: 449px;
+    height: 216px;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    transition: all 1s;
+}
+
+.sixth_card:hover {
+    transition: all 1s;
+    background-color: orange;
+}
+
+.photo_of_break {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.p_trassa {
+    margin-top: 100px;
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 79px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #101010;
+}
+
+.box_for_trassa {
+    margin-top: 100px;
+    width: 100%;
+    height: 586px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_wrapper_texts{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.first_p_in_trassa {
+    width: 549px;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.second_p_in_trassa {
+    width: 556px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+}
+
+.tsec{
+    background-color: gray;
+    padding-bottom: 110px;
+}
+
+.wrapper_card_in_tsec{
+    padding-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card_in_tsec{
+    width: 400px;
+height: 462px;
+border-radius: 10px;
+background-color: black;
+transition: all 1s;
+}
+
+.p-numbers{
+    margin-top: 24px;
+    margin-left: 17px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 800;
+line-height: 26px;
+letter-spacing: 0em;
+color: white;
+
+}
+
+.p-pinarello{
+    margin-top: 50px;
+    margin-left: 17px;
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.01em;
+color: white;
+}
+
+.card_in_tsec:hover{
+    transition: all 1s;
+    background-color: orange;
+}
+
+
+.map{
+    width: 100%;
+    height: 500px;
+}
